@@ -1,0 +1,22 @@
+#include <iostream>
+#include <cmath> // Para usar sin() y cos()
+
+using namespace std;
+
+int main() {
+    double angulo, seno, coseno;
+
+    // Leer el ángulo en radianes
+    cout << "Ingrese el tamano del angulo en radianes: ";
+    cin >> angulo;
+
+    // Calcular seno y coseno
+    seno = sin(angulo);
+    coseno = cos(angulo);
+
+    // Mostrar resultados
+    cout << "El seno del angulo es: " << seno << endl;
+    cout << "El coseno del angulo es: " << coseno << endl;
+
+    return 0;
+}

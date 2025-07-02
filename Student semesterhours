@@ -1,0 +1,34 @@
+#include <cstdio>
+#include <iostream>
+using namespace std;
+
+class Student
+{
+public:
+Student()
+{
+cout<<"constructing student"<<endl;
+semesterHours=0;
+gpa=0.0;	
+}	
+protected:
+int semesterHours;
+float gpa;	
+};
+int main(int nNumberofArgs, char* pszArgs[])
+{
+cout<<"creating a new Student object"<<endl;
+Student s;
+
+cout<<"creating anew object off the heap"<<endl;
+Student* pS= new Student;
+system("PAUSE");
+return 0;
+	
+	
+	
+	
+	
+	
+	
+}
